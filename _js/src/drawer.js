@@ -58,12 +58,12 @@ const REQUIREMENTS = new Set([
 
 // NOTE: Duplicated values from `_sass_/variables.scss`.
 // Change format here
-// const CONTENT_WIDTH_5 = 48;
-const CONTENT_WIDTH_5 = 60;
+const CONTENT_WIDTH_5 = 48;
+// const CONTENT_WIDTH_5 = 60;
 const CONTENT_MARGIN_5 = 4;
 const BREAK_POINT_3 = "(min-width: 64em)";
-// const BREAK_POINT_DYNAMIC = "(min-width: 1666px)";
-const BREAK_POINT_DYNAMIC = "(min-width: 1680px)";
+const BREAK_POINT_DYNAMIC = "(min-width: 1666px)";
+// const BREAK_POINT_DYNAMIC = "(min-width: 1680px)";
 
 const DRAWER_WIDTH = 21;
 const R_28 = CONTENT_WIDTH_5 / 2 + CONTENT_MARGIN_5;

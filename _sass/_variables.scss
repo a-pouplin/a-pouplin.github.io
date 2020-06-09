@@ -21,15 +21,15 @@ $body-color: #333;
 $body-bg: #fff;
 $border-color: #ebebeb;
 
-$root-font-size: 12px;
-$root-font-size-medium: 14px;
-$root-font-size-large: 14px;
-$root-font-size-print: 12pt;
+// $root-font-size: 12px;
+// $root-font-size-medium: 14px;
+// $root-font-size-large: 14px;
+// $root-font-size-print: 12pt;
 // $root-line-height: 1.5;
-// $root-font-size: 16px;
-// $root-font-size-medium: 17px;
-// $root-font-size-large: 18px;
-// $root-font-size-print: 11pt;
+$root-font-size: 16px;
+$root-font-size-medium: 17px;
+$root-font-size-large: 18px;
+$root-font-size-print: 11pt;
 $root-line-height: 1.75;
 
 $font-weight: 400;
@@ -42,10 +42,10 @@ $code-font-family: Menlo, Monaco, Consolas, monospace;
 // NOTE: Duplicated values from `_js/src/drawer.js`.
 // Change format here
 $content-width: 38rem;
-// $content-width-2: 42rem;
-$content-width-2: 50rem;
-// $content-width-5: 48rem;
-$content-width-5: 60rem;
+$content-width-2: 42rem;
+// $content-width-2: 50rem;
+$content-width-5: 48rem;
+// $content-width-5: 60rem;
 
 $content-margin-3: 3rem;
 $content-margin-5: 4rem;
@@ -70,5 +70,5 @@ $break-point-font-large: 124em;
 // 60+(2*4)+(2*21) = 110
 // HACK: Since Chrome doesn't treat rem values in media queries correctly,
 // we hard-code the pixel value for the values above.
-$break-point-dynamic: 1540px; // = 110 * 14px
-// $break-point-dynamic: 1666px; // = 98 * 17px
+// $break-point-dynamic: 1540px; // = 110 * 14px
+$break-point-dynamic: 1666px; // = 98 * 17px
