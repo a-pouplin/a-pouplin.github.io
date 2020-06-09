@@ -57,8 +57,8 @@ const REQUIREMENTS = new Set([
 ]);
 
 // NOTE: Duplicated values from `_sass_/variables.scss`.
-// const CONTENT_WIDTH_5 = 48;
-const CONTENT_WIDTH_5 = 70;
+const CONTENT_WIDTH_5 = 48;
+// const CONTENT_WIDTH_5 = 70;
 const CONTENT_MARGIN_5 = 4;
 const BREAK_POINT_3 = "(min-width: 64em)";
 const BREAK_POINT_DYNAMIC = "(min-width: 1666px)";
