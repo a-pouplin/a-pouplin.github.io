@@ -16,6 +16,15 @@ accent_image:
 
 ## Papers
 {: style="margin-top:2rem"}
+Pulling back information geometry
+{:.lead style="margin-bottom: 0"}
+Georgios Arvanitidis, Miguel González-Duque, Alison Pouplin, Dimitris Kalatzis, Søren Hauberg
+{:.faded style="margin-bottom: 0"}
+arXiv preprint, 2021
+{: style="margin-top:0; margin-bottom:0"}
+[arXiv:2106.05367](https://arxiv.org/abs/2106.05367.pdf)
+{: style="margin-top:0"}
+
 
 Denoising adversarial autoencoders: classifying skin lesions using limited labelled training data [\[PDF\]](https://digital-library.theiet.org/content/journals/10.1049/iet-cvi.2018.5243)
 {:.lead style="margin-bottom: 0"}
