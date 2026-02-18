@@ -1,0 +1,29 @@
+- date: "26 Jan 2026"
+  tag: "paper"
+  content: >
+    ICLR accepted two papers:
+    [The Spacetime of Diffusion Models: An Information Geometry Perspective](https://arxiv.org/abs/2505.17517) (Oral)
+    and [Riemannian Variational Flow Matching for Material and Protein Design](https://arxiv.org/abs/2502.12981) (Poster).
+    A pleasure to work with Rafał, Olga and Floor.
+
+- date: "23 Dec 2025"
+  tag: "workshop"
+  content: >
+    [GRaM](https://gram-workshop.github.io/index.html) got accepted as a workshop at ICLR, our second edition!
+    We have a call for proceedings, tiny papers, blogposts and a competition coming soon.
+
+- date: "9 Sep 2025"
+  tag: "talk"
+  content: >
+    Gave a talk at [GPSS](https://gpss.cc/gpss25/slides/Pouplin2025.pdf) on Links between Riemannian geometry and Gaussian Processes. Thank you Carl Henrik Ek and Mauricio Alvarez for the invitation!
+
+- date: "1 Jun 2025"
+  tag: "news"
+  content: >
+    Started at Bayer in the MLR team.
+
+- date: "9 May 2025"
+  tag: "workshop"
+  content: >
+    End of the wonderful workshop on [Geometry for statistics and AI](https://sites.google.com/view/g-stai/home?authuser=0)
+    organised by Libby Baker, Stefan Sommer and Erlend Grong.

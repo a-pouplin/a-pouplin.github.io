@@ -1,0 +1,8 @@
+- name: About
+  link: /
+  anchor: '#'
+  highlight: true
+- name: Timeline
+  link: /
+  anchor: '#timeline'
+  highlight: false

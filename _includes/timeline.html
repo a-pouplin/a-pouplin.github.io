@@ -1,0 +1,131 @@
+<div class="row py-2">
+    <div class="col-md-12" id="timeline">
+        <h2>What's New</h2>
+    </div>
+</div>
+
+<div class="row py-2">
+    <div class="col-md-12">
+        <div class="timeline">
+            {% for item in site.data.timeline %}
+            <div class="timeline-item">
+                <div class="timeline-left">
+                    <div class="timeline-dot tl-{{ item.tag }}"></div>
+                    <div class="timeline-line"></div>
+                </div>
+                <div class="timeline-body">
+                    <div class="timeline-meta">
+                        <span class="timeline-date">{{ item.date }}</span>
+                        <span class="timeline-tag tl-tag-{{ item.tag }}">{{ item.tag }}</span>
+                    </div>
+                    <div class="timeline-content">{{ item.content | markdownify }}</div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<style>
+.timeline {
+    width: 100%;
+    padding-top: 0.5rem;
+}
+
+.timeline-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.timeline-item:last-child .timeline-line {
+    display: none;
+}
+
+/* Left column: dot + vertical line */
+.timeline-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    width: 12px;
+}
+
+.timeline-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 5px;
+}
+
+.timeline-line {
+    width: 1px;
+    flex: 1;
+    background-color: #3a3a3a;
+    margin-top: 4px;
+    min-height: 24px;
+}
+
+/* Tag colours */
+.tl-paper  { background-color: #4a9eed; }
+.tl-talk   { background-color: #a78bfa; }
+.tl-workshop { background-color: #f09228; }
+.tl-news   { background-color: #6ee7b7; }
+
+/* Body */
+.timeline-body {
+    padding-bottom: 1.25rem;
+    flex: 1;
+}
+
+.timeline-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.2rem;
+}
+
+.timeline-date {
+    font-size: 0.8em;
+    color: #888;
+    white-space: nowrap;
+}
+
+.timeline-tag {
+    font-size: 0.68em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 1px 7px;
+    border-radius: 20px;
+    color: #1a1a1a;
+}
+
+.tl-tag-paper    { background-color: #4a9eed; }
+.tl-tag-talk     { background-color: #a78bfa; }
+.tl-tag-workshop { background-color: #f09228; }
+.tl-tag-news     { background-color: #6ee7b7; }
+
+.timeline-content {
+    color: #c0c0c0;
+    line-height: 1.55;
+    font-size: 0.92em;
+}
+
+.timeline-content p {
+    margin: 0;
+}
+
+.timeline-content a {
+    color: #c0c0c0;
+    text-decoration: underline;
+    text-decoration-color: #555;
+    text-underline-offset: 2px;
+}
+
+.timeline-content a:hover {
+    color: #f09228;
+    text-decoration-color: #f09228;
+}
+</style>

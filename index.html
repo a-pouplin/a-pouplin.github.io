@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="row flex-column-reverse flex-md-row py-2">
+    <div class="col-md-12" id="bio">
+        <h1 style="text-align: center;">Alison Pouplin</h1>
+        <div style="text-align: justify;">
+        {% capture bio %}{% include bio.md %}{% endcapture %}
+        {{ bio | markdownify }}
+        </div>
+        <p style="text-align:center">
+            <a href="https://bsky.app/profile/alisometry.bsky.social">Bluesky</a> &nbsp;/&nbsp;
+            <a href="https://scholar.google.com/citations?user=bNcqi4oAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
+            <a href="https://www.linkedin.com/in/alison-p-97b280217/">LinkedIn</a>
+        </p>
+    </div>
+</div>
+
+{% include timeline.html %}
