@@ -1,10 +1,21 @@
+- date: "26 Apr 2026"
+  tag: "workshop"
+  content: >
+    [GRaM 2026](https://iclr.cc/virtual/2026/workshop/10000809) at ICLR — our second edition! Proceedings coming soon.
+
+- date: "10 Mar 2026"
+  tag: "paper"
+  content: >
+    [On the Fisher Geometry of Diffusion Models' Latent Space](https://openreview.net/forum?id=rD62pvl9vW) accepted as a poster at ICLR GRaM 2026.
+    Led by Maria, a lovely follow-up to Rafał's spacetime paper.
+
 - date: "26 Jan 2026"
   tag: "paper"
   content: >
     ICLR accepted two papers:
     [The Spacetime of Diffusion Models: An Information Geometry Perspective](https://arxiv.org/abs/2505.17517) (Oral)
     and [Riemannian Variational Flow Matching for Material and Protein Design](https://arxiv.org/abs/2502.12981) (Poster).
-    A pleasure to work with Rafał, Olga and Floor.
+    A pleasure to work with the brilliant Rafał, Olga and Floor ♥
 
 - date: "23 Dec 2025"
   tag: "workshop"
@@ -20,10 +31,73 @@
 - date: "1 Jun 2025"
   tag: "news"
   content: >
-    Started at Bayer in the MLR team.
+    Started at Bayer in the MLR team, working on uncertainty quantification, BO and AL for small molecules and FEP prediction.
 
 - date: "9 May 2025"
   tag: "workshop"
   content: >
-    End of the wonderful workshop on [Geometry for statistics and AI](https://sites.google.com/view/g-stai/home?authuser=0)
-    organised by Libby Baker, Stefan Sommer and Erlend Grong.
+    End of the wonderful workshop on [Geometry for statistics and AI](https://sites.google.com/view/g-stai/home?authuser=0), in the beautiful Metochi Study Center.
+    Thank you Libby Baker, Stefan Sommer and Erlend Grong, for the invitations. We had so many exciting discussions and... wine. :)
+
+- date: "18 Apr 2025"
+  tag: "talk"
+  content: >
+    Gave a talk at the "Geometry and Information" seminar at HSE, organized by
+    [Maxim Beketov](https://scholar.google.com/citations?user=9HoVvVsAAAAJ&hl=en).
+    Loved the *Saint Petersburg Mathematicians and Their Discoveries* book gift.
+
+- date: "24 Oct 2024"
+  tag: "news"
+  content: >
+    First run of our [Geometric Deep Learning course](https://mycourses.aalto.fi/enrol/index.php?id=45501#section-0) at Aalto!
+    Created together with Caglar Hizli, Katsiaryna Haitsiukevich and Erik Schultheis. So many lovely and smart students!
+
+- date: "29 Jul 2024"
+  tag: "workshop"
+  content: >
+    [GRaM 2024](https://icml.cc/virtual/2024/workshop/29975) at ICML, organised with the amazing [Sharv](https://scholar.google.com/citations?user=gfRkDXEAAAAJ&hl=en).
+    Proceedings published in [PMLR](https://proceedings.mlr.press/v251/vadgama24a.html).
+
+- date: "1 Feb 2024"
+  tag: "news"
+  content: >
+    Started as a postdoc at Aalto University with Vikas Garg, Samuel Kaski and Markus Heinonen. Excited for a new chapter!
+
+- date: "26 Oct 2023"
+  tag: "news"
+  content: >
+    PhD defence day — extremely nervous, but so lucky to have the most amazing examiners:
+    Frank Nielsen, Michael Bronstein and Mikkel N. Schmidt.
+    And the most incredibly supportive mentors and PI ever: Søren Hauberg, Georgios Arvanitidis and Carl Henrik Ek. ♥
+
+- date: "23 Feb 2023"
+  tag: "talk"
+  content: >
+    Gave a talk at [TAG-DS](https://sites.google.com/view/tag-ds/home?authuser=0) on Finsler geometry —
+    see the [paper](https://arxiv.org/abs/2212.10010).
+
+- date: "Jun 2022"
+  tag: "workshop"
+  content: >
+    Organised the [Hitchhiker's Guide to Complex Geometry](https://complexgeometrytalks.github.io/) reading group
+    with the wonderful [Pablo A. Morales](https://scholar.google.com/citations?user=oJ6-p50AAAAJ&hl=en) (Araya Research)
+    and [Challenger Mishra](https://scholar.google.com/citations?user=zGSN6k4AAAAJ&hl=en) (Cambridge University).
+
+- date: "1 Jan 2022"
+  tag: "news"
+  content: >
+    Started a 3-month internship at Relation Therapeutics. Together with Thomas, Alice, and Paul, we built
+    [PyRelationAL](https://pyrelational.readthedocs.io/en/stable/), a Python active learning library.
+    I wished I could have stayed longer, but ERC funding restrictions prevented me from extending my PhD...
+
+- date: "Oct 2020"
+  tag: "workshop"
+  content: >
+    Co-organised [CogSys ML Talks](https://cogsystalks.github.io/) at DTU with
+    [Federico Bergamin](https://federicobergamin.github.io/): a seminar series on machine learning and applied mathematics.
+    Lovely community building during covid, and some speakers ended up working together. :)
+
+- date: "1 Mar 2020"
+  tag: "news"
+  content: >
+    Start of my academic journey and my PhD... with the amazing [Søren Hauberg](https://www2.compute.dtu.dk/~sohau/) at DTU. ♥
