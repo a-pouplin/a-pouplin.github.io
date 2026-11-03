@@ -1,3 +1,27 @@
+- date: "2 Nov 2026"
+  tag: "news"
+  content: >
+    I am sad I left my beloved MLR team at Bayer. But the geometric calling was way too strong,
+    and I am looking forward to working on geometric generative models with
+    [Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/), in collaboration with Oxford and AITHYRA. If you are excited too, have a look at the research of [Iolo](https://www.iolojones.co.uk/), [Manuel](https://manuellecha.com/), [Jacob](https://jacobbamb.github.io/)
+    and [Teodora](https://scholar.google.com/citations?user=2jJ0s38AAAAJ&hl=en). ♥
+
+- date: "24 Oct 2026"
+  tag: "paper"
+  content: >
+    Federica led a brilliant group of students working on evaluation metrics on Riemannian manifolds. Their [workshop paper](https://arxiv.org/abs/2610.33731) got accepted at [GDDL](https://gddl-neurips-2026.github.io/) at NeurIPS in Paris. So much love to them, and so happy I could help too. :)
+
+- date: "28 Aug 2026"
+  tag: "workshop"
+  content: >
+    [NeurReps](https://www.neurreps.org/) received more than 350 submissions across the extended abstracts, proceedings and findings tracks (!)
+
+- date: "15 Aug 2026"
+  tag: "news"
+  content: >
+    Released [minimol-onnx](https://pypi.org/project/minimol-onnx/). After struggling with too many environment incompatibilities, and inspired by [cddd-onnx](https://pypi.org/project/cddd-onnx/), I decided to make my own minimol-onnx.
+    ONNX [here](https://onnx.ai/onnx/intro/python.html) should really be the gold standard when deploying a model.
+
 - date: "17 Jul 2026"
   tag: "workshop"
   content: >
@@ -5,10 +29,10 @@
 
 
 - date: "17 Jul 2026"
-  tag: "workshop"
+  tag: "paper"
   content: >
     The GRaM 2026 proceedings are on their way to publication in PMLR (volume 326).
-    It was also a joy to gather the results of the GRaM competition into a meta-analysis paper. :)
+    It was also a joy to gather the results of the GRaM competition into a meta-analysis [paper](https://proceedings.mlr.press/v326/suk26a.html). :)
 
 - date: "26 Apr 2026"
   tag: "workshop"
